@@ -4,27 +4,156 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
+/* Black & Green Theme - Light Mode */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  /* Primary Green Colors */
+  --ifm-color-primary: #00cc6e;
+  --ifm-color-primary-dark: #00b862;
+  --ifm-color-primary-darker: #00ad5d;
+  --ifm-color-primary-darkest: #008f4c;
+  --ifm-color-primary-light: #00e07a;
+  --ifm-color-primary-lighter: #00eb7f;
+  --ifm-color-primary-lightest: #1aff99;
+
+  /* Custom Brand Colors */
+  --brand-green: #00ff88;
+  --brand-green-dark: #00cc6e;
+  --brand-green-darker: #00b862;
+  --brand-black: #0a0a0a;
+  --brand-gray: #1a1a1a;
+
+  /* Background Colors */
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #f8f9fa;
+  --ifm-card-background: #ffffff;
+
+  /* Text Colors */
+  --ifm-font-color-base: #1a1a1a;
+  --ifm-font-color-secondary: #4a5568;
+  --ifm-heading-color: #0a0a0a;
+
+  /* Border & Divider */
+  --ifm-border-color: #e5e7eb;
+  --ifm-hr-background-color: #e5e7eb;
+
+  /* Code Blocks */
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 255, 136, 0.1);
+  --ifm-code-background: #f3f4f6;
+
+  /* Navbar */
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-navbar-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+
+  /* Footer */
+  --ifm-footer-background-color: #0a0a0a;
+  --ifm-footer-color: #e5e7eb;
+  --ifm-footer-link-color: var(--brand-green);
+
+  /* Shadows for modern look */
+  --ifm-global-shadow-lw: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --ifm-global-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --ifm-global-shadow-tl: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Black & Green Theme - Dark Mode */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  /* Primary Green Colors - Brighter for dark backgrounds */
+  --ifm-color-primary: #00ff88;
+  --ifm-color-primary-dark: #00e07a;
+  --ifm-color-primary-darker: #00d474;
+  --ifm-color-primary-darkest: #00b062;
+  --ifm-color-primary-light: #1aff99;
+  --ifm-color-primary-lighter: #26ffa3;
+  --ifm-color-primary-lightest: #4dffb8;
+
+  /* Custom Brand Colors */
+  --brand-green: #00ff88;
+  --brand-green-dark: #00e07a;
+  --brand-green-darker: #00cc6e;
+  --brand-black: #0a0a0a;
+  --brand-gray: #1a1a1a;
+
+  /* Background Colors */
+  --ifm-background-color: #0a0a0a;
+  --ifm-background-surface-color: #1a1a1a;
+  --ifm-card-background: #1a1a1a;
+
+  /* Text Colors */
+  --ifm-font-color-base: #e5e7eb;
+  --ifm-font-color-secondary: #9ca3af;
+  --ifm-heading-color: #ffffff;
+
+  /* Border & Divider */
+  --ifm-border-color: #2a2a2a;
+  --ifm-hr-background-color: #2a2a2a;
+
+  /* Code Blocks */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 255, 136, 0.15);
+  --ifm-code-background: #1a1a1a;
+
+  /* Navbar */
+  --ifm-navbar-background-color: #0a0a0a;
+  --ifm-navbar-shadow: 0 1px 3px 0 rgba(0, 255, 136, 0.1);
+
+  /* Footer */
+  --ifm-footer-background-color: #000000;
+  --ifm-footer-color: #9ca3af;
+  --ifm-footer-link-color: var(--brand-green);
+
+  /* Shadows with green glow for modern look */
+  --ifm-global-shadow-lw: 0 1px 3px 0 rgba(0, 255, 136, 0.1);
+  --ifm-global-shadow-md: 0 4px 6px -1px rgba(0, 255, 136, 0.15);
+  --ifm-global-shadow-tl: 0 10px 15px -3px rgba(0, 255, 136, 0.2);
+}
+
+/* Global Styles for Modern Feel */
+* {
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Enhanced link hover effects */
+a {
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Modern button styles */
+.button {
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.button--primary {
+  background: linear-gradient(135deg, var(--brand-green) 0%, var(--brand-green-dark) 100%);
+  border: none;
+  color: var(--brand-black);
+}
+
+.button--primary:hover {
+  background: linear-gradient(135deg, var(--brand-green-dark) 0%, var(--brand-green-darker) 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 255, 136, 0.4);
+}
+
+/* Card styling */
+.card {
+  border-radius: 12px;
+  border: 1px solid var(--ifm-border-color);
+  box-shadow: var(--ifm-global-shadow-lw);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: var(--ifm-global-shadow-md);
+  transform: translateY(-4px);
 }

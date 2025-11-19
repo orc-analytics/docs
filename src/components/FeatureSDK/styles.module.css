@@ -1,0 +1,97 @@
+.section {
+  padding: 5rem 2rem;
+  background: var(--ifm-background-surface-color);
+  border-top: 1px solid var(--ifm-border-color);
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.tag {
+  display: inline-block;
+  background: rgba(0, 204, 110, 0.15);
+  color: var(--brand-green-darker);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(0, 204, 110, 0.3);
+}
+
+[data-theme='dark'] .tag {
+  background: rgba(0, 204, 110, 0.12);
+  color: var(--brand-green);
+  border: 1px solid rgba(0, 204, 110, 0.25);
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: var(--ifm-font-color-secondary);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.languages {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.langBadge {
+  background: var(--brand-black);
+  color: var(--brand-green);
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  border: 1px solid var(--brand-green);
+  transition: all 0.3s ease;
+}
+
+.langBadge:hover {
+  background: var(--brand-green);
+  color: var(--brand-black);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 255, 136, 0.3);
+}
+
+[data-theme='dark'] .langBadge {
+  background: rgba(0, 255, 136, 0.1);
+  color: var(--brand-green);
+  border: 1px solid rgba(0, 255, 136, 0.3);
+}
+
+[data-theme='dark'] .langBadge:hover {
+  background: var(--brand-green);
+  color: var(--brand-black);
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 3.5rem 1.5rem;
+  }
+
+  .title {
+    font-size: 1.875rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .langBadge {
+    padding: 0.625rem 1.25rem;
+    font-size: 0.85rem;
+  }
+}
