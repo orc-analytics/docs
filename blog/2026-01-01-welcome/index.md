@@ -70,7 +70,7 @@ data and wanting realise the promised value of AI. To achieve that, the core of 
 will remain - open source under a permissive license. 
 
 However, building a sustainable ecosystem requires a clear path for growth. Our model 
-follows a philosophy similar to Mathworks:
+follows a philosophy similar to the Freemium model:
 * **The Core Framework:** Open and free for the community to build upon.
 * **Specialised Modules:** We will offer paid "Toolboxes" or modules that implement 
     sophisticated, industry-specific processes and proprietary algorithms. Initial 
