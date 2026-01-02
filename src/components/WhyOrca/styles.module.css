@@ -121,3 +121,15 @@
     grid-template-columns: 1fr;
   }
 }
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: var(--ifm-color-secondary-lightest);
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+}

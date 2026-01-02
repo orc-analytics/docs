@@ -9,7 +9,7 @@ export default function Hero(): ReactNode {
             Build Analytics on Realtime Data, <span className={styles.highlight}>Fast</span>
         </h1>
         <p className={styles.subtitle}>
-            With Orca, you can convert data to AI in Days, not Months.
+            With Orca you can build Domain Specific AI on realtime data in <b>Days</b>, not Months
         </p>
         <div className={styles.cta}>
           <a href="/docs/quickstart" className={styles.primaryButton}>
