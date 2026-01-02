@@ -1,15 +1,12 @@
-/* --- Vercel-Inspired Hero Section --- */
-
 .hero {
   padding: 10rem 2rem; /* Extreme whitespace for impact */
   text-align: center;
   background-color: var(--ifm-background-color);
-  border-bottom: 1px solid var(--ifm-border-color);
   position: relative;
-  overflow: hidden;
+  overflow: show;
 }
 
-/* The Vercel "Spotlight" - centered and subtle */
+/* "Spotlight" - centered and subtle */
 .hero::before {
   content: '';
   position: absolute;
@@ -50,7 +47,7 @@
   color: var(--ifm-heading-color);
 }
 
-/* Vercel doesn't usually use text gradients, but they use "High Contrast" green */
+/* "High Contrast" green instead of gradients */
 .highlight {
   color: var(--ifm-color-primary);
   background: none;

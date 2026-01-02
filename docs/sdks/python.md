@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
-title: Python SDK
-id: python-sdk
+title: Python
+id: python
 description: Build and register algorithms with Orca in Python
 ---
 

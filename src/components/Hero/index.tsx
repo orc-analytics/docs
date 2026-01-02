@@ -1,6 +1,7 @@
 import React, { type ReactNode } from 'react';
 import styles from './styles.module.css';
 
+
 export default function Hero(): ReactNode {
   return (
     <section className={styles.hero}>

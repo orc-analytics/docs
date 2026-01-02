@@ -6,18 +6,15 @@ export default function FeatureLabeling(): ReactNode {
     <section className={styles.section} id="features">
       <div className={styles.container}>
         <span className={styles.tag}>FEATURES</span>
-        <h2 className={styles.title}>Build Labels and Train AI Faster</h2>
+        <h2 className={styles.title}>Build Labels and Train AI <span className={styles.highlight}>Faster</span></h2>
         <p className={styles.description}>
-          High-quality, domain-specific AI models are built on a deep understanding of the data. 
-          This requires a sufficient volume of decision-grade metrics and expertly informed labels.
+          The Orca Console is the easiest way to build labelled datasets on realtime data. It provides a
+          single integrated environment where teams can analyse metrics, label data based on real-world
+          events, and leverage those labels to fine-tune AI models.
         </p>
         <p className={styles.description}>
-          The Orca UI makes obtaining this easy. It provides a single, integrated environment where 
-          your teams can analyse metrics, seamlessly label data based on real-world events, and use 
-          that accumulated insight to fine-tune AI models - transforming your raw business data into 
-          a source of truly sovereign AI.
+          This transforms your raw data into a source of truly <span className={styles.highlight}>sovereign AI</span>.
         </p>
-        
         <div className={styles.features}>
           <div className={styles.featureItem}>
             <h3 className={styles.featureTitle}>Seamless Data Labelling</h3>

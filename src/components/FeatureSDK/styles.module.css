@@ -1,14 +1,12 @@
-/* --- Vercel-Inspired Tech Stack Section --- */
-
 .section {
-  padding: 6rem 2rem;
+  padding: 6rem 4rem;
   background: var(--ifm-background-color); /* Switched from surface to pure bg */
   border-top: 1px solid var(--ifm-border-color);
   position: relative;
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1000px; /* Slightly wider for better feature spacing */
   margin: 0 auto;
 }
 
@@ -66,13 +64,25 @@
   cursor: default;
 }
 
-/* Vercel Hover: Border becomes green, text becomes bright */
+/* "High Contrast" green instead of gradients */
+.highlight {
+  color: var(--ifm-color-primary);
+  background: none;
+  -webkit-text-fill-color: initial;
+  background-clip: initial;
+}
+
+/* Border becomes green, text becomes bright */
 .langBadge:hover {
   border-color: var(--ifm-color-primary);
   color: var(--ifm-heading-color);
   background: var(--ifm-background-color);
   box-shadow: 0 0 0 1px var(--ifm-color-primary), 0 8px 16px rgba(0, 0, 0, 0.1);
   transform: translateY(-1px);
+}
+
+.noDecoration {
+    text-decoration: none;
 }
 
 [data-theme='dark'] .langBadge {
@@ -97,3 +107,5 @@
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
   }
 }
+
+

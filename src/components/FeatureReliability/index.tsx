@@ -11,9 +11,9 @@ export default function FeatureReliability(): ReactNode {
           Avoid cascading failures, poor backfills and stale data by handling brittle glue scripts.
         </p>
         <p className={styles.description}>
-          Orca orchestrates your pipelines with data freshness guarantees, including idempotent backfills, 
-          intelligent retries, and failure isolation. This ensures runtime health is enforced at runtime, 
-          not just monitored after the fact.
+          Orca orchestrates your pipelines with data freshness guarantees, including backfills
+          and retries. This ensures runtime health is enforced at compile time instead of errors
+          being thrown after deployment just monitored after the fact.
         </p>
         
         <div className={styles.features}>

@@ -82,7 +82,7 @@ themeConfig: {
     },
     navbar: {
       title: 'Orca',
-      hideOnScroll: true, // Vercel-style: hides navbar when scrolling down
+      hideOnScroll: true, // hides navbar when scrolling down
       logo: {
         alt: 'Orca Logo',
         src: 'img/logo.svg',

@@ -1,15 +1,13 @@
-/* --- Vercel-Inspired Section Module --- */
-
 .section {
   padding: 6rem 2rem; /* Increased whitespace */
   background-color: var(--ifm-background-color);
   text-align: center;
-  border-bottom: 1px solid var(--ifm-border-color); /* Bottom border is more common for Vercel sections */
+  border-bottom: 1px solid var(--ifm-border-color); 
   position: relative;
   overflow: hidden;
 }
 
-/* The "Vercel Dot" Grid Background Effect */
+/* Grid Background Effect */
 .section::before {
   content: '';
   position: absolute;
@@ -38,7 +36,7 @@
 
 .title {
   font-size: 3rem; /* Larger, bolder headings */
-  letter-spacing: -0.05em; /* Signature Geist tight tracking */
+  letter-spacing: -0.03em; /* Signature Geist tight tracking */
   font-weight: 800;
   color: var(--ifm-heading-color);
   margin-bottom: 1.5rem;
