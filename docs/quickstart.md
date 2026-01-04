@@ -68,7 +68,7 @@ orca start
 
 Once the Orca stack is running, you're ready to register your first algorithm.
 Orca supports multiple programming languages including Python, Go, TypeScript/JavaScript,
-and Rust. You can find the full SDK documentation at [here](/docs/category/sds).
+and Rust. You can find the full SDK documentation at [here](/docs/category/sdks).
 
 :::info
 Currently on the Python SDK is in a workable state. Stay up to date with SDK releases 
@@ -315,4 +315,4 @@ Congratulations! You've just built a production-ready analytics scheduling engin
 
 This simple example demonstrates Orca's baseline capability to schedule analytics based on time-based triggers. However, Orca can do much more. 
 
-For more advanced scenarios, check out [our examples](/examples) on algorithm dependency management, running multiple processors in the same workspace, and building cross-platform processors with dependencies between them.
+For more advanced scenarios, check out our examples on algorithm dependency management, running multiple processors in the same workspace, and building cross-platform processors with dependencies between them.
