@@ -72,7 +72,7 @@ and Rust. You can find the full SDK documentation at [here](/docs/category/sds).
 
 :::info
 Currently on the Python SDK is in a workable state. Stay up to date with SDK releases 
-by signing up to our newsletter.
+by signing up to our [newsletter](#newsletter).
 :::
 
 For this example, we'll use Python, but the pattern is similar across languages.

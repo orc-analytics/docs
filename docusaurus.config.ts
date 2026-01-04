@@ -100,6 +100,7 @@ themeConfig: {
           label: 'Blog',
           position: 'left'
         },
+        {to: '/roadmap', label: 'Roadmap', position: 'left'},
         {
           href: 'https://github.com/orc-analytics/orca',
           position: 'right',
