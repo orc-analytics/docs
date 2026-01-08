@@ -1,6 +1,7 @@
 ---
 title: Product Roadmap
-description: Our product development timeline and upcoming features
+description: Our product development timeline and upcoming features. See what's recently shipped, in progress, and planned for the Orca real-time analytics platform including cross-processor dependencies, SDK development, and platform features.
+keywords: [orca roadmap, product development, feature timeline, upcoming features, golang sdk, processing backlog, platform features, orca development]
 ---
 
 # Product Roadmap

@@ -2,7 +2,8 @@
 sidebar_position: 1
 id: overview
 title: Overview
-description: Understand why Orca exists and how it works.
+description: Understand why Orca exists and how it works. Learn about time-based windowing strategies, tradeoffs between availability and accuracy, and Orca's approach to orchestrating real-time analytics at scale.
+keywords: [orca architecture, time series processing, windowing patterns, real-time analytics, dataflow model, window orchestration, analytics framework, stream processing, data pipeline architecture]
 ---
 
 Welcome to **Orca** - the orchestration framework for running analytics on realtime

@@ -2,7 +2,8 @@
 sidebar_position: 1
 title: Python
 id: python
-description: Build and register algorithms with Orca in Python
+description: Build and register algorithms with Orca in Python. Complete Python SDK reference with examples for defining processors, algorithms, window types, handling dependencies, and emitting windows for real-time analytics.
+keywords: [orca python sdk, python analytics, algorithm dependencies, window processing python, grpc python, real-time data processing, python timeseries, data pipeline python]
 ---
 
 The Orca Python SDK provides a framework for building, registering, and executing algorithms that integrate with the Orca gRPC service. Algorithms can have dependencies managed by Orca-core and are triggered by time-windowed events.

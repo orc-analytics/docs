@@ -41,6 +41,32 @@ const config: Config = {
 
   onBrokenAnchors:'warn',
 
+  headTags: [
+    // Structured data for Organization
+    {
+      tagName: 'script',
+      attributes: {
+        type: 'application/ld+json',
+      },
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org/',
+        '@type': 'Organization',
+        name: 'Orca',
+        url: 'https://orc-a.io',
+        logo: 'https://orc-a.io/img/logo.svg',
+        description: 'Stream data to AI in days, not Months. Build Analytics on Realtime Data, Fast, with Orca.',
+        sameAs: [
+          'https://github.com/orc-analytics/orca',
+        ],
+        contactPoint: {
+          '@type': 'ContactPoint',
+          contactType: 'Open Source Support',
+          url: 'https://github.com/orc-analytics/orca/issues',
+        },
+      }),
+    },
+  ],
+
   presets: [
     [
       'classic',
@@ -74,9 +100,22 @@ const config: Config = {
     ],
   ],
 
+  plugins: [],
+
 themeConfig: {
     // Social card image
     image: 'img/orca-social-card.jpeg',
+    // Global metadata for SEO
+    metadata: [
+      {name: 'keywords', content: 'orca, real-time analytics, time series data, data analytics, AI platform, stream processing, algorithm orchestration, timeseries analytics, IoT analytics, data pipeline'},
+      {name: 'author', content: 'Orca Analytics'},
+      {name: 'twitter:card', content: 'summary_large_image'},
+      {name: 'twitter:site', content: '@orcanalytics'},
+      {name: 'twitter:creator', content: '@orcanalytics'},
+      {name: 'og:type', content: 'website'},
+      {name: 'og:site_name', content: 'Orca Documentation'},
+      {name: 'theme-color', content: '#1c1e21'},
+    ],
     // Smooth transitions for theme switching
     colorMode: {
       defaultMode: 'dark',

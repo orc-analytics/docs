@@ -3,7 +3,10 @@ import Layout from '@theme/Layout';
 
 export default function Terms() {
   return (
-    <Layout title="Terms of Service">
+    <Layout
+      title="Terms of Service"
+      description="Orca's Terms of Service. Understand the terms and conditions for using the Orca open-source analytics platform, including data sovereignty and intellectual property rights."
+    >
       <main className="container margin-vert--xl">
         <div className="row">
           <div className="col col--8 col--offset-2">

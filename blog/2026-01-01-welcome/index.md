@@ -1,8 +1,11 @@
 ---
 slug: welcome
 title: "Welcome: Solving the Engineering Burden"
+description: The origin story of Orca - why we built it, the problem it solves for real-time timeseries analytics, and where we're going next with the open-source platform.
 authors: [frederickmannings]
 tags: [news, open-source]
+keywords: [orca platform, real-time analytics, timeseries data challenges, open source analytics, IoT analytics, data engineering, AI timeseries, analytics orchestration]
+image: /img/orca-social-card.jpeg
 ---
 
 Welcome to Orc-a. A platform aspiring to become **the** standard for processing 

@@ -1,7 +1,8 @@
 ---
 sidebar_position: 2
-title: CLI 
-description: Install, run the Orca CLI and learn more about the Orca CLI
+title: CLI
+description: Install, run the Orca CLI and learn more about the Orca CLI. Complete command reference for managing the Orca analytics platform including start, stop, status, init, sync, and destroy commands.
+keywords: [orca CLI, command line interface, orca commands, CLI installation, orca start, orca stop, orca sync, docker management, development tools]
 ---
 
 The Orca CLI is a command-line tool for managing the Orca analytics platform

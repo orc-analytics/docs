@@ -3,6 +3,7 @@ sidebar_position: 2
 id: data-model
 title: Mental Model
 description: Learn how Orca orchestrates timeseries analytics using a modular architecture of windows, processors, and algorithms. Understand the core components, execution flow, and how Orca enables scalable, language-agnostic data processing.
+keywords: [orca data model, processor architecture, algorithm DAG, window processing, orchestrator design, microservices analytics, distributed computing, language-agnostic processing, modular analytics]
 ---
 
 To effectively use Orca, it helps to develop a clear mental model of how its core concepts - **windows**, **processors**,

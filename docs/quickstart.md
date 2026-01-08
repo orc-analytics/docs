@@ -1,7 +1,8 @@
 ---
 sidebar_position: 1
 title: Quickstart Guide
-description: Get started developing with Orca. 
+description: Get started developing with Orca. Learn how to install the Orca CLI, start the stack, and build your first real-time analytics processor with Python, Go, TypeScript, or Rust.
+keywords: [orca quickstart, getting started with orca, orca installation, real-time analytics tutorial, time series analytics, orca CLI, python analytics, docker setup]
 ---
 
 import Tabs from '@theme/Tabs';

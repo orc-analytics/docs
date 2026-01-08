@@ -4,7 +4,10 @@ import styles from './legal.module.css';
 
 export default function Privacy() {
   return (
-    <Layout title="Privacy Policy">
+    <Layout
+      title="Privacy Policy"
+      description="Orca's privacy policy. Learn how we collect, use, and protect your personal data. We respect your privacy and don't use cookies or tracking analytics."
+    >
       <main className={styles.legalPage}>
         <div className="container">
           <div className="row">
