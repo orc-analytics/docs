@@ -8,7 +8,7 @@ export default function FeatureReliability(): ReactNode {
         <span className={styles.tag}>FEATURES</span>
         <h2 className={styles.title}>Robot Fleet Reliability, Validated Before Deployment</h2>
         <p className={styles.description}>
-          Robotics pipelines can't fail during production. Orca's compile-time validation guarantees your telemetry analytics are correct before deployment, with automated backfills that query your existing data stores—no brittle glue scripts required.
+          Robotics pipelines can't fail during production. Orca's compile-time validation guarantees your telemetry analytics are correct before deployment, with automated backfills that query your existing data stores - no brittle glue scripts required.
         </p>
         
         <div className={styles.features}>
