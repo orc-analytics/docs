@@ -118,6 +118,14 @@ const config: Config = {
         ],
       },
     ],
+    [
+      'posthog-docusaurus',
+      {
+        apiKey: 'phc_jSvZQZZhfug20QHnLmaW27IrBTZOp4pzQBWKNRyerxn',
+        appUrl: 'https://eu.i.posthog.com',
+        enableInDevelopment: false,
+      },
+    ],
   ],
 
 themeConfig: {
