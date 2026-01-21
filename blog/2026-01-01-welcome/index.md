@@ -8,7 +8,7 @@ keywords: [orca platform, real-time analytics, timeseries data challenges, open 
 image: /img/orca-social-card.jpeg
 ---
 
-Welcome to Orc-a. A platform aspiring to become **the** standard for processing 
+Welcome to Orca Telmetry. A platform aspiring to become **the** standard for processing 
 analytics on real-time data.
 
 

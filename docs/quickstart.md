@@ -29,7 +29,7 @@ If you don't have Docker installed, follow [these instructions](https://docs.doc
 Run the following install script:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/orc-analytics/cli/main/install-cli.sh | bash
+curl -fsSL https://raw.githubusercontent.com/orca-telemetry/cli/main/install-cli.sh | bash
 ```
 
 The Orca CLI is used to provision Orca when developing locally and manage

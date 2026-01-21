@@ -11,10 +11,10 @@ Our roadmap outlines planned features and improvements. Timelines are estimates 
 :::info
 **Last Updated:** January 2026
 
-Have a feature request? [Open an issue here](https://github.com/orc-analytics/core), in the correct repository:
-- The core orchestrator: https://github.com/orc-analytics/core
-- The CLI: https://github.com/orc-analytics/cli
-- Python SDK: https://github.com/orc-analytics/python-sdk
+Have a feature request? [Open an issue here](https://github.com/orca-telemetry/core), in the correct repository:
+- The core orchestrator: https://github.com/orca-telemetry/core
+- The CLI: https://github.com/orca-telemetry/cli
+- Python SDK: https://github.com/orca-telemetry/python-sdk
 :::
 
 ---
@@ -144,7 +144,7 @@ A: No, this roadmap represents our current plans but dates may shift based on co
 A: We prioritise based on user feedback, business value, technical dependencies, and strategic goals with our design partners.
 
 **Q: Can I request a feature?**  
-A: Absolutely! Submit requests directly in [Github](https://github.com/orc-analytics).
+A: Absolutely! Submit requests directly in [Github](https://github.com/orca-telemetry).
 
 ---
 

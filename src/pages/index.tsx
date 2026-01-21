@@ -21,12 +21,12 @@ export default function Home(): ReactNode{
         <meta property="og:title" content="Orca - Telemetry Data to AI in Days, not Months" />
         <meta property="og:description" content={description} />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://orc-a.io/" />
-        <meta property="og:image" content="https://orc-a.io/img/orca-social-card.jpeg" />
+        <meta property="og:url" content="https://orcatelemetry.io/" />
+        <meta property="og:image" content="https://orcatelemetry.io/img/orca-social-card.jpeg" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
-        <meta name="twitter:image" content="https://orc-a.io/img/orca-social-card.jpeg" />
-        <link rel="canonical" href="https://orc-a.io/" />
+        <meta name="twitter:image" content="https://orcatelemetry.io/img/orca-social-card.jpeg" />
+        <link rel="canonical" href="https://orcatelemetry.io/" />
         <script type="application/ld+json">
           {JSON.stringify({
             '@context': 'https://schema.org',
@@ -35,7 +35,7 @@ export default function Home(): ReactNode{
             applicationCategory: 'DeveloperApplication',
             operatingSystem: 'Linux, macOS, Windows',
             description: 'Open-source orchestration framework for running analytics on real-time timeseries data at scale. Supports Python, Go, TypeScript, and Rust.',
-            url: 'https://orc-a.io',
+            url: 'https://orcatelemetry.io',
             author: {
               '@type': 'Organization',
               name: 'Orca',
@@ -45,7 +45,7 @@ export default function Home(): ReactNode{
               price: '0',
               priceCurrency: 'USD',
             },
-            screenshot: 'https://orc-a.io/img/orca-social-card.jpeg',
+            screenshot: 'https://orcatelemetry.io/img/orca-social-card.jpeg',
           })}
         </script>
         <script type="application/ld+json">
@@ -57,7 +57,7 @@ export default function Home(): ReactNode{
                 '@type': 'ListItem',
                 position: 1,
                 name: 'Home',
-                item: 'https://orc-a.io/',
+                item: 'https://orcatelemetry.io/',
               },
             ],
           })}

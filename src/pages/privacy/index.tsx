@@ -28,7 +28,7 @@ export default function Privacy() {
                 </p>
                 <ul>
                   <li><strong>Main Address: </strong>Ideaspace, 3 Laundress Ln, Cambridge CB2 1SD, UK</li>
-                  <li><strong>Email:</strong> contact@orc-a.io</li>
+                  <li><strong>Email:</strong> contact@orcatelemetry.io</li>
                 </ul>
 
                 <h2>3. What Is Personal Data?</h2>

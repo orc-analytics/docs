@@ -28,14 +28,14 @@ If Docker is not installed, follow the [official Docker installation guide](http
 The recommended installation method is using the installation script:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/orc-analytics/cli/main/install-cli.sh | bash
+curl -fsSL https://raw.githubusercontent.com/orca-telemetry/cli/main/install-cli.sh | bash
 ```
 
 This script works on Linux, macOS, and Windows via WSL.
 
 ### Manual Installation
 
-Alternatively, you can download the CLI manually from the [GitHub releases page](https://github.com/orc-analytics/cli/releases):
+Alternatively, you can download the CLI manually from the [GitHub releases page](https://github.com/orca-telemetry/cli/releases):
 
 1. Navigate to the latest release
 2. Download the appropriate `tar.gz` file for your platform from the Assets section
@@ -61,7 +61,7 @@ orca --version
 To upgrade to the latest version, simply run the installation script again:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/orc-analytics/cli/main/install-cli.sh | bash
+curl -fsSL https://raw.githubusercontent.com/orca-telemetry/cli/main/install-cli.sh | bash
 ```
 
 ---
@@ -338,7 +338,7 @@ orca --version
 To upgrade:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/orc-analytics/cli/main/install-cli.sh | bash
+curl -fsSL https://raw.githubusercontent.com/orca-telemetry/cli/main/install-cli.sh | bash
 ```
 
 ---
@@ -349,7 +349,7 @@ curl -fsSL https://raw.githubusercontent.com/orc-analytics/cli/main/install-cli.
 
 ```bash
 # Install the CLI
-curl -fsSL https://raw.githubusercontent.com/orc-analytics/cli/main/install-cli.sh | bash
+curl -fsSL https://raw.githubusercontent.com/orca-telemetry/cli/main/install-cli.sh | bash
 
 # Start the Orca stack
 orca start
@@ -403,6 +403,6 @@ orca sync -connStr production.orca.com:33670 -secure -out ./prod_sync
 
 - [Quickstart Guide](/docs/quickstart)
 - [SDK Documentation](/docs/category/sdks)
-- [GitHub Repository](https://github.com/orc-analytics/cli)
+- [GitHub Repository](https://github.com/orca-telemetry/cli)
 
-For issues or feature requests, please visit the [GitHub issues page](https://github.com/orc-analytics/cli/issues).
+For issues or feature requests, please visit the [GitHub issues page](https://github.com/orca-telemetry/cli/issues).

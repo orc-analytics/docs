@@ -2,12 +2,12 @@
 
 # IndexNow API submission script
 # Usage: ./indexnow.sh <url1> <url2> <url3> ...
-# Example: ./indexnow.sh "https://www.orc-a.io/blog/new-post"
+# Example: ./indexnow.sh "https://www.orcatelemetry.io/blog/new-post"
 
 # Configuration
-HOST="www.orc-a.io"
-API_KEY="2176be2d9b3348e8820fed62a2997e3f"
-KEY_LOCATION="https://www.orc-a.io/2176be2d9b3348e8820fed62a2997e3f.txt"
+HOST="orcatelemetry.io"
+API_KEY="2bb01aeb605e474b96603228809a9246"
+KEY_LOCATION="https://orcatelemetry.io/2bb01aeb605e474b96603228809a9246.txt"
 
 # Check if URLs were provided
 if [ $# -eq 0 ]; then
@@ -15,8 +15,8 @@ if [ $# -eq 0 ]; then
     echo "Usage: $0 <url1> [url2] [url3] ..."
     echo ""
     echo "Examples:"
-    echo "  $0 \"https://www.orc-a.io/blog/new-post\""
-    echo "  $0 \"https://www.orc-a.io/docs/quickstart\" \"https://www.orc-a.io/docs/api\""
+    echo "  $0 \"https://www.orcatelemetry.io/blog/new-post\""
+    echo "  $0 \"https://www.orcatelemetry.io/docs/quickstart\" \"https://www.orcatelemetry.io/docs/api\""
     exit 1
 fi
 

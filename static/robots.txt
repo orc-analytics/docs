@@ -23,4 +23,4 @@ Allow: /
 User-agent: facebot
 Allow: /
 
-Sitemap: https://orc-a.io/sitemap.xml
+Sitemap: https://orca-telemetry.io/sitemap.xml

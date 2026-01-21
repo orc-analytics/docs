@@ -14,14 +14,14 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://orc-a.io',
+  url: 'https://orcatelemetry.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'orc-analytics', // Usually your GitHub org/user name.
+  organizationName: 'Orca Telemetry', // Usually your GitHub org/user name.
   projectName: 'orca', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -52,16 +52,16 @@ const config: Config = {
         '@context': 'https://schema.org/',
         '@type': 'Organization',
         name: 'Orca',
-        url: 'https://orc-a.io',
-        logo: 'https://orc-a.io/img/logo.svg',
-        description: 'Stream data to AI in days, not Months. Build Analytics on Realtime Data, Fast, with Orca.',
+        url: 'https://orcatelemetry.io',
+        logo: 'https://orcatelemetry.io/img/logo.svg',
+        description: 'Telemetry data to AI in days, not Months. Build Analytics on Realtime Data, Fast, with Orca.',
         sameAs: [
-          'https://github.com/orc-analytics/orca',
+          'https://github.com/orca-telemetry/orca',
         ],
         contactPoint: {
           '@type': 'ContactPoint',
           contactType: 'Open Source Support',
-          url: 'https://github.com/orc-analytics/orca/issues',
+          url: 'https://github.com/orca-telemetry/orca/issues',
         },
       }),
     },
@@ -76,7 +76,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/orc-analytics/docs/tree/main/',
+            'https://github.com/orca-telemetry/docs/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -87,7 +87,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/orc-analytics/docs/tree/main/',
+            'https://github.com/orca-telemetry/docs/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -169,7 +169,7 @@ themeConfig: {
         },
         {to: '/roadmap', label: 'Roadmap', position: 'left'},
         {
-          href: 'https://github.com/orc-analytics/orca',
+          href: 'https://github.com/orca-telemetry/orca',
           position: 'right',
           className: 'header-github-link',
           'aria-label': 'GitHub repository',
@@ -184,7 +184,7 @@ themeConfig: {
           title: 'Resources',
           items: [
             { label: 'Docs', to: '/docs/quickstart' },
-            { label: 'GitHub', href: 'https://github.com/orc-analytics/orca' },
+            { label: 'GitHub', href: 'https://github.com/orca-telemetry/orca' },
           ],
         },
         {
