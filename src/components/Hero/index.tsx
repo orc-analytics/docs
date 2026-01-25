@@ -32,10 +32,10 @@ export default function Hero() {
           Orca bolts onto your streaming infrastructure to orchestrate sensor-to-model pipelines in Days, not Months
         </p>
         <div className={styles.cta}>
-          <a href="#get-started" className={styles.primaryButton}>
+          <a href="/docs/quickstart" className={styles.primaryButton}>
             Get Started
           </a>
-          <a href="#learn-more" className={styles.secondaryButton}>
+          <a href="/docs/architecture/overview" className={styles.secondaryButton}>
             Learn More
           </a>
         </div>
