@@ -1,26 +1,34 @@
 User-agent: *
 Allow: /
+Disallow: /pitch
 
 # Explicitly allow common search engine bots
 User-agent: Googlebot
 Allow: /
+Disallow: /pitch
 
 User-agent: Bingbot
 Allow: /
+Disallow: /pitch
 
 User-agent: Slurp
 Allow: /
+Disallow: /pitch
 
 User-agent: DuckDuckBot
 Allow: /
+Disallow: /pitch
 
 User-agent: Baiduspider
 Allow: /
+Disallow: /pitch
 
 User-agent: YandexBot
 Allow: /
+Disallow: /pitch
 
 User-agent: facebot
 Allow: /
+Disallow: /pitch
 
 Sitemap: https://orcatelemetry.io/sitemap.xml
