@@ -1,6 +1,6 @@
 ---
 slug: welcome
-title: "Solving the Engineering Burden"
+title: "Solving the Engineering Burden of Telemetry Analytics Engineering"
 description: The origin story of Orca - why we built it, the problem it solves for real-time timeseries analytics, and where we're going next with the open-source platform.
 authors: [frederickmannings]
 tags: [news, open-source]
